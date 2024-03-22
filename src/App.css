@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -33,4 +34,28 @@ section {
 
 .hero--header {
   margin-top: 0;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card--star {
+  height: 14px;
+}
+
+.gray {
+  color: #918E9B;
 }
